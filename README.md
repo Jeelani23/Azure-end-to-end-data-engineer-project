@@ -92,9 +92,3 @@ Integrated multiple data sources into a unified system
 Built scalable Delta Lake storage model
 Delivered actionable insights via Power BI
 
-
-## Future Enhancements
-
-Advanced DAX calculations for deeper insights
-Real-time data processing
-Performance optimization and scheduling improvements
