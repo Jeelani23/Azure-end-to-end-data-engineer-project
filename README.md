@@ -21,7 +21,7 @@ Raw Parquet files (Retail datasets)
 Built and published ETL pipelines in Azure Data Factory
 Loaded data into Azure Data Lake Storage (Bronze Layer)
 
-## Bronze Layer (Raw Data)
+### Bronze Layer (Raw Data)
 
 Stored raw data as-is in ADLS
 Maintained source-level datasets for:
@@ -31,7 +31,7 @@ Products
 Stores
 Customers
 
-## Silver Layer (Cleaned & Transformed Data)
+### Silver Layer (Cleaned & Transformed Data)
 
 Processed data using Azure Databricks
 Applied transformations:
@@ -44,7 +44,7 @@ Data quality improvements
 Created structured Delta tables for each entity
 
 
-## Gold Layer (Business-Level Aggregation)
+### Gold Layer (Business-Level Aggregation)
 
 Combined datasets for analytics
 Built aggregated tables with key metrics:
